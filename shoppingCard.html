@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <!-- container -->
+        <div class="flex justify-center items-center min-h-screen">
+            <!-- shopping card -->
+            <div class="shadow-xl rounded-3xl p-3 flex flex-col md:flex-row">
+                <!-- image -->
+                <div class="mb-4 flex justify-center">
+                    <img
+                        class="w-72"
+                        src="https://mercular.s3.ap-southeast-1.amazonaws.com/images/products/2020/12/HyperX-QuadCast-S-1.jpg"
+                        alt=""
+                    />
+                </div>
+
+                <!-- content -->
+                <div class="md:mt-5 mx-10">
+                    <h1 class="text-xl max-w-sm mb-5">
+                        Hyper X QuadCast S -USB microphone (Black-grey) -RGB
+                        Lighting
+                    </h1>
+                    <h6 class="line-through">$ 159</h6>
+                    <h1 class="font-bold text-4xl mb-5">$ 150</h1>
+
+                    <!-- footer -->
+                    <div class="flex mb-5">
+                        <button
+                            class="bg-red-500 text-white w-full rounded-lg py-2"
+                        >
+                            Add to card
+                        </button>
+                    </div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-2 h-2 bg-red-500 rounded-full"></div>
+                        <span>4 + pcs, In Stock</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
